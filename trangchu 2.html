@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sở Xây Dựng Tỉnh Bến Tre</title>
+</head>
+<body>
+    <style>
+        /* Định dạng chung */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/premium-photo/raw-green-coconut-fruit-plant_3249-5453.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.8); /* Nền header trong suốt */
+            color: #000000;
+            padding: 20px 40px;
+            text-align: center;
+            border-bottom: 2px solid #0066cc;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        header img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        /* Menu */
+        nav {
+            background-color: #4CAF50; /* Màu xanh lá cây phù hợp với tone dừa */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            padding: 10px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px auto;
+            gap: 30px;
+        }
+
+        .main-content {
+            width: 70%;
+            background: rgba(255, 255, 255, 0.8); /* Nền chính trong suốt để thấy được ảnh nền */
+            padding: 30px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            color: #333;
+line-height: 1.6;
+        }
+
+        .main-content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .main-content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .sidebar .service {
+            background: #ffffff;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        .sidebar .service img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/vi/9/90/Logo_TP._B%E1%BA%BFn_Tre.svg" alt="Logo">
+        <h1>Dừa Bến Tre - Biểu tượng của Tỉnh</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><P><a href="biography.html">Tiểu sử </a> |</p></li>
+            <li><P><a href="index.html">Giới thiệu </a> | </p></li>
+            <li><P><a href="abc.html">Sản phẩm </a> | </p></li>
+            <li><P><a href="acb.html">Văn hóa  </a> | </p></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="main-content" id="content-area">
+            <!-- Nội dung sẽ được tải ở đây -->
+            <h2>Bến Tre - ấn tượng về sự đa dạng văn hóa và thiên nhiên sông nước miệt vườn</h2>
+            <p>Bến Tre có đường bờ biển dài 65km, có rừng ngập mặn với hệ động thực vật phong phú, các kênh rạch chằng chịt cùng nhiều cù lao, cồn bãi, nên bốn mùa khí hậu ôn hòa, mát mẻ. Đây còn là một ốc đảo được hợp thành từ ba dãy cù lao (cù lao Bảo, cù lao Minh, cù lao An Hóa) và được bồi tụ bởi phù sa của 4 con sông Tiền, Hàm Luông, Ba Lai và Cổ Chiên nên đất đai rất phì nhiêu, màu mỡ, thích hợp trồng nhiều loại trái cây, trong đó nổi tiếng nhất là cây dừa. Bến Tre hiện có 53.000ha diện tích đất trồng dừa, chiếm 1/4 diện tích dừa cả nước, sản lượng hàng năm khoảng 500 triệu trái, không chỉ cung cấp trong nước mà còn xuất khẩu đi các nước như Singapore, Malaysia, Philippin, Ấn Độ, Trung Quốc… Dừa được chế biến thành nhiều sản phẩm đa dạng như: than hoạt tính, chỉ sơ dừa, cơm dừa nạo sấy, sữa dừa, thạch dừa, mặt nạ dừa, kẹo dừa,… Người dân Bến Tre còn tận dụng tất cả các thành phần của cây dừa như thân, cọng, vỏ, lá… để làm ra nhiều sản phẩm thủ công mỹ nghệ độc đáo, được nhiều du khách ưa chuộng tập trung ở các làng nghề thuộc Cồn Phụng (huyện Châu Thành) và Hưng Phong (huyện Giồng Trôm)</p>
+<p>Thời gian qua, du lịch Bến Tre đã nỗ lực thay đổi để tương xứng với danh xưng “xứ Dừa”. Có thể thấy rõ nét nhất trong định hướng về phát triển du lịch của tỉnh là việc đưa cây dừa cùng những giá trị của dừa vào du lịch một cách toàn diện. Người làm du lịch ở tỉnh đã nhận thức rõ về giá trị cốt lõi, nhận ra mình giữa bức tranh du lịch sinh thái đồng bằng sông Cửu Long chính là hình ảnh của dừa. Họ đã hiểu được rằng, cần tự tạo nên câu chuyện và đặc trưng riêng của mình, dựa vào tài nguyên bản địa đang có để khai thác giá trị từ cây dừa cùng văn hóa ẩm thực dừa và dùng thế mạnh này để du khách trải nghiệm, thưởng thức những sản phẩm chất lượng nhất.</p>
+                    <p>Hiện nay, Bến Tre đang phát triển loại hình du lịch nông nghiệp gắn liền với cây dừa Bến Tre. Những sản phẩm tour, hoạt động nghỉ dưỡng hay vui chơi giải trí nơi đây bởi vì được che chắn dưới bóng dừa xanh nên mang con người đến gần hơn với không gian xanh của thiên nhiên, đất trời. Hình thức du lịch này thu về những tín hiệu rất tích cực. Có thể nói đây là giải pháp giúp vực dậy ngành du lịch đang chịu nhiều ảnh hưởng của sự biến đổi khí hậu. Việc tiết kiệm năng lượng bằng cách sinh hoạt trong các loại nhà có vật liệu từ cây dừa Bến Tre cũng đặc biệt thu hút tín đồ khám phá.</p>
+          <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bình luận</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="comment-section">
+        <h2>Viết bình luận</h2>
+        <form id="comment-form">
+            <textarea id="comment-input" placeholder="Nhập bình luận của bạn..." required></textarea>
+            <button type="submit">Đăng bình luận</button>
+        </form>
+        <div class="comments" id="comments">
+        </div>
+    </div>
+    <footer>
+        <p>Liên hệ: duyanhluu4@gmail.com - (0797907829)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
